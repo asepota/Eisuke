@@ -1,0 +1,4 @@
+参考サイト
+http://d.hatena.ne.jp/uasi/20091024/1256322715
+
+http://github.com/ezyang/git-ftpをチェックアウトして、Eusukeフォルダ内でチェックアウトした物の中のgit-ftp.pyを実行する。

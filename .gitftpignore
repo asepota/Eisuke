@@ -1,0 +1,3 @@
+#ftpignorefiles以下はでdeployされないようにする。
+./ftpignorefiles/
+
