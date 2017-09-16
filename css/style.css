@@ -7,10 +7,13 @@ html {
   font-size: 62.5%;
 }
 body {
+  width: 1000px;
+  margin: 0 auto;
+
   color: #333;
   font-size: 1.2rem;
   font-family: "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
-  box-shadow: 0 0 10px 1px #e3e3e3;
+  /*box-shadow: 0 0 10px 1px #e3e3e3;*/
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -30,7 +33,6 @@ a:link, a:visited, a:hover, a:active {
 }
 .heading {
   padding: 10px 12px;
-  background: url('../images/bg-slash.gif');
   letter-spacing: 1px;
   font-size: 1.6rem;
 }
@@ -44,34 +46,35 @@ a:link, a:visited, a:hover, a:active {
  * -------------------------------- */
 .header {
   width: 100%;
-  height: 460px;
+  height: 300px;
   padding: 18px 0 10px;
-  background-color: rgba(255,0,25,0.5);
+  /*background-color: rgba(255,0,25,0.5);*/
+  background: url('../images/hanabi.jpg') no-repeat;
  /*  background: url('../images/akb.jpg') repeat; */
   box-shadow: 0 0 10px 1px #e3e3e3;
+  position: relative;
+
 }
+/*
 .logo {
   width: 225px;
   height: 250px;
   margin: 0 auto;
-  background: url('../images/IMG_0067.JPG') no-repeat;
-  transform: scale(2,0.5) rotate(40deg) ;
-  /*text-indent: 100%;
+  
 
-  /*white-space: nowrap;
-   overflow: hidden;*/
 }
 .logo a {
   display: block;
   width: 100%;
   height: 100%;
 }
+*/
 
 .logo2 {
-  width: 1000px;
-  height: 90px;
-  margin: 0 auto;
-  background: url('../images/title.png') no-repeat;
+  width: 800px;
+  height: 80px;
+  margin: 60px auto;
+  background: url('../images/title-logo-white.png') no-repeat;
   /*text-indent: 100%;
 
   /*white-space: nowrap;
@@ -84,12 +87,16 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .global-nav {
-  margin-top: 50px;
+  width: 100%;
+  position: absolute;
+  left: auto;
+  bottom: 20px;
   text-align: center;
 }
+
 .global-nav .nav-item {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 .global-nav .nav-item a {
   display: inline-block;
@@ -98,7 +105,8 @@ a:link, a:visited, a:hover, a:active {
   line-height: 35px;
   text-align: center;
   border-radius: 8px;
-  color: #666;
+  color: #ffffff;
+  /*color: #666;*/
   font-size: 2.5rem;
   letter-spacing: 1px;
   transition: 0.15s;
@@ -139,7 +147,7 @@ a:link, a:visited, a:hover, a:active {
 
   color: #333;
   text-align: center;
-  font-size: 3.5rem; 
+  font-size: 3rem; 
 }
 
 .hot-topic {
@@ -473,8 +481,8 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .contact p{
-  line-height: 4rem;
-  font-size: 3rem;
+  line-height: 3rem;
+  font-size: 2.5rem;
   text-align: center; 
   
 

@@ -5,33 +5,25 @@
   <title>結婚</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script src="./js/jquerylib.js"></script>
+  <script>
+    setHeader('#index');
+  </script> 
+
 </head>
 <body>
 
-  <button id="btn">クリック</button>
-  <a onclick="play();">PLAY</a>
-  -->
+  
 
-  <header class="header">
-    <h1 class="logo">
-      <a id="playvideo" TARGET="_blank">石田梅岩    </a>
-    </h1>
-    <h1 class="logo2">
-    </h1>
-    <nav class="global-nav">
-      <ul>
-        <li class="nav-item active"><a href="./index.html">HOME</a></li>
-        <li class="nav-item"><a href="./about.html">ABOUT</a></li>
-        <!--<li class="nav-item"><a href="./topics.html">TOPICS</a></li>-->
-        <li class="nav-item"><a href="./contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  
+  <div id="header">
+  </div>
   
   <div class="wrapper clearfix">
     <main class="main">
+      
+      
       <h1 class="page-title">ホーム</h1>
 
   
@@ -81,16 +73,16 @@
       <div class="clearfix">
         <a href="#" class="article-box">
           <h3 class="title">漫画家を目指す集まりの場</h3>
-          <img class="image" src="./images/ORSTJ00.jpg" alt="コーディング画面">
+          <img class="image" src="./images/find.jpg" alt="コーディング画面">
         </a>
         <a href="#" class="article-box">
           <h3 class="title">協力、情報共有</h3>
           
-          <img class="image" src="./images/3187.jpg" alt="コーディング画面">
+          <img class="image" src="./images/shareinfo.jpg" alt="コーディング画面">
         </a>
         <a href="#" class="article-box">
           <h3 class="title">自分が求めるスタイルで可能性を広げる</h3>
-          <img class="image" src="./images/OG2OBM0.jpg " alt="コーディング画面">
+          <img class="image" src="./images/possivility.jpg " alt="コーディング画面">
         </a>
         <a href="#" class="article-box">
           <h3 class="title">自分の描いた作品が認められる</h3>
@@ -98,121 +90,8 @@
         </a>
       </div>
     </main>
-  <!--
-    <div class="sidemenu">
-
-      <h2 class="heading">RANKING</h2>
-      <ol class="ranking">
-        <li class="ranking-item">
-          <a href="#">
-            <img class="image" src="./images/ranking.jpg" alt="グラフの画像">
-            <span class="order"></span>
-            <p class="text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
-        <li class="ranking-item">
-          <a href="#">
-            <img class="image" src="./images/ranking.jpg" alt="グラフの画像">
-            <span class="order"></span>
-            <p class="text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
-        <li class="ranking-item">
-          <a href="#">
-            <img class="image" src="./images/ranking.jpg" alt="グラフの画像">
-            <span class="order"></span>
-            <p class="text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
-        <li class="ranking-item">
-          <a href="#">
-            <img class="image" src="./images/ranking.jpg" alt="グラフの画像">
-            <span class="order"></span>
-            <p class="text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
-        <li class="ranking-item">
-          <a href="#">
-            <img class="image" src="./images/ranking.jpg" alt="グラフの画像">
-            <span class="order"></span>
-            <p class="text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
-        <li class="ranking-item">
-          <a href="#">
-            <img class="image" src="./images/ranking.jpg" alt="グラフの画像">
-            <span class="order"></span>
-            <p class="text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
-        <li class="ranking-item">
-          <a href="#">
-            <img class="image" src="./images/ranking.jpg" alt="グラフの画像">
-            <span class="order"></span>
-            <p class="text">HTML/CSSコーディングと切っても切れないWebブラウザのシェア動向をチェックしよう</p>
-          </a>
-        </li>
-      </ol>
-
-      <h2 class="heading">DOCUMENTS</h2>
-      <ul class="documents">
-        <li>
-          <h3 class="title">HTML5</h3>
-          <ul>
-            <li><a href="#">追加された要素</a></li>
-            <li><a href="#">削除された要素</a></li>
-            <li><a href="#">意味が変わった要素</a></li>
-            <li><a href="#">HTML5のコンテンツモデル</a></li>
-          </ul>
-        </li>
-        <li>
-          <h3 class="title">CSS3</h3>
-          <ul>
-            <li><a href="#">追加されたプロパティ</a></li>
-            <li><a href="#">追加されたセレクタ</a></li>
-            <li><a href="#">追加された単位</a></li>
-          </ul>
-        </li>
-        <li>
-          <h3 class="title">JavaScript</h3>
-          <ul>
-            <li><a href="#">JavaScriptの言語仕様</a></li>
-            <li><a href="#">ECMAScriptとは？</a></li>
-            <li><a href="#">jQueryとは？</a></li>
-          </ul>
-        </li>
-        <li>
-          <h3 class="title">Sass, Less, Stylus</h3>
-          <p>準備中</p>
-        </li>
-        <li>
-          <h3 class="title">TypeScript</h3>
-          <p>準備中</p>
-        </li>
-      </ul>
-      <h2 class="hidden">SEARCH</h2>
-      <form class="search-box">
-        <input class="search-input" type="text" name="search" placeholder="SEARCH">
-        <input class="search-button" type="submit" value="検索">
-        <p class="text">サイト内の文章を検索できます。</p>
-      </form>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <ul class="horizontal-list">
-      <li class="horizontal-item"><a href="#">ABOUT ME</a></li>
-      <li class="horizontal-item"><a href="#">SITE MAP</a></li>
-      <li class="horizontal-item"><a href="#">SNS</a></li>
-      <li class="horizontal-item"><a href="#">CONTACT</a></li>
-    </ul>
-    <p class="copyright">Copyright © 2015 SAMPLE SITE</p>
-  </footer>
-      -->
-    <script type="text/javascript" src="./js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="./js/audio.js"></script>
-    <script type="text/javascript" src="./js/video.js"></script>
-
-
+  
+  
+    
 </body>
 </html>
