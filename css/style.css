@@ -133,6 +133,15 @@ a:link, a:visited, a:hover, a:active {
   float: left;
   width: 960px;
 }
+
+.main .page-title{
+  margin: 30px auto 20px;
+
+  color: #333;
+  text-align: center;
+  font-size: 3.5rem; 
+}
+
 .hot-topic {
   display: block;
   height: 300px;
@@ -232,8 +241,8 @@ a:link, a:visited, a:hover, a:active {
 .article-box {
   position: relative;
   display: block;
-  width: 460px;
-  height: 500px;
+  width: 400px;
+  height: 350px;
   margin-bottom: 30px;
   padding: 210px 15px 0;
   box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
@@ -249,9 +258,10 @@ a:link, a:visited, a:hover, a:active {
   float: right;
 }
 .article-box .title {
-  margin-top: 40%;
+  text-align: center;
+  margin-top: 22%;
   color: #555;
-  font-size: 1.4rem;
+  font-size: 2rem;
   line-height: 1.6;
 }
 .article-box .desc {
@@ -281,7 +291,7 @@ a:link, a:visited, a:hover, a:active {
   top: 0;
   left: 0;
   width: 100%;
-  height: 70%;
+  height: 82%;
 }
 
 
@@ -458,9 +468,32 @@ a:link, a:visited, a:hover, a:active {
  * -------------------------------- */
 .contact{
   width: 100%;
-  font-size: 5rem;
-  text-align: left;
   color: #777;
+  float: unset;
+}
+
+.contact p{
+  line-height: 4rem;
+  font-size: 3rem;
+  text-align: center; 
+  
+
+}
+
+.contact .image{
+  margin: 10px 37.5%  10px;
+  width: 25%;
+}
+
+.contact .text{
+  margin-left: 25%;
+   display: inline-block;
+   width: 50%;
+   overflow: hidden;
+   word-wrap: break-word;
+   white-space: pre-wrap;
+   font-size: 1.7rem; 
+   text-align: center;
 }
 
 
@@ -470,6 +503,7 @@ a:link, a:visited, a:hover, a:active {
   margin: 0 auto;
   margin-bottom: 30px;
 }
+
 .contactlogo a {
   display: block;
   width: 100%;
@@ -497,19 +531,11 @@ a:link, a:visited, a:hover, a:active {
    color: #777;
  }
 
- .about .logo3 {
-   margin: 30px auto 0;
-
-   color: #333;
-   text-align: center;
-   font-size: 5rem;
- }
 
  .about .text {
    display: inline-block;
    width: 50%;
    float: left;
-   padding-top: 50px;
    padding-left: 15px;
    overflow: hidden;
    word-wrap: break-word;
@@ -520,8 +546,8 @@ a:link, a:visited, a:hover, a:active {
 .about .image {
   float: right;
   display: block;
-  margin: 50px 50px;
-  width: 35%;
+  margin-right: 10%;
+  width: 25%;
 }
 
 .aboutbody{
