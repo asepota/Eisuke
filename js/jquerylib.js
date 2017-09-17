@@ -1,4 +1,8 @@
 function setGlobalNav(id){
+    if(id == undefined){
+      return;
+    }
+
     var element = $(id);
 
     if(element.hasClass('nav-item')){
