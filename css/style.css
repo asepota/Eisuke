@@ -46,12 +46,9 @@ a:link, a:visited, a:hover, a:active {
  * -------------------------------- */
 .header {
   width: 100%;
-  height: 300px;
+  height: 360px;
   padding: 18px 0 10px;
   /*background-color: rgba(255,0,25,0.5);*/
-  background: url('../images/hanabi.jpg') no-repeat;
- /*  background: url('../images/akb.jpg') repeat; */
-  box-shadow: 0 0 10px 1px #e3e3e3;
   position: relative;
 
 }
@@ -69,6 +66,15 @@ a:link, a:visited, a:hover, a:active {
   height: 100%;
 }
 */
+.header-top{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 300px;
+  background: url('../images/hanabi.jpg') no-repeat;
+ /*  background: url('../images/akb.jpg') repeat; */
+  box-shadow: 0 0 10px 1px #e3e3e3; 
+}
 
 .logo2 {
   width: 800px;
@@ -92,6 +98,8 @@ a:link, a:visited, a:hover, a:active {
   left: auto;
   bottom: 20px;
   text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: ridge 0.2rem #333;
 }
 
 .global-nav .nav-item {
@@ -105,7 +113,7 @@ a:link, a:visited, a:hover, a:active {
   line-height: 35px;
   text-align: center;
   border-radius: 8px;
-  color: #ffffff;
+  color: #333;
   /*color: #666;*/
   font-size: 2.5rem;
   letter-spacing: 1px;
@@ -576,6 +584,35 @@ a:link, a:visited, a:hover, a:active {
 0% {transform: scale(4,1) ;}
 100% {transform: scale(0.5,1) ;}
 }
+
+
+/*---------------------------------
+ * Business Image
+ * --------------------------------*/
+
+.businessImage{
+   width: 100%;
+   height: 100%;
+   /*font-size: 10rem;*/
+   color: #777;
+}
+
+
+.businessImage .text {
+   display: inline-block;
+   width: 50%;
+   margin-left: 25%;
+   overflow: hidden;
+   word-wrap: break-word;
+   white-space: pre-wrap;
+   font-size: 1.7rem;
+}
+ 
+
+
+
+
+
 /* --------------------------------
  * challenge
  *
