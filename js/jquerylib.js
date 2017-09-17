@@ -13,10 +13,11 @@ function setGlobalNav(id){
     }
 }
 
-function setHeader(id){
+function initPage(id){
   $(function(){
     console.log('set header');
     $("#header").load("header.html", null, function(){setGlobalNav(id)});
+    $("#footer").load("footer.html");
   });
 }
 
