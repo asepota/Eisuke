@@ -256,6 +256,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .articles{
+  margin: 0 auto;
   width:90%;
 }
 
@@ -265,7 +266,7 @@ a:link, a:visited, a:hover, a:active {
   width: 400px;
   height: 350px;
   margin-bottom: 30px;
-  padding: 200px 15px 0;
+  padding: 200px 20px 0;
   box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
   transition: opacity 0.15s;
 }
@@ -279,14 +280,15 @@ a:link, a:visited, a:hover, a:active {
   float: right;
 }
 .article-box .title {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
   text-align: center;
-  margin-top: 22%;
   color: #555;
   font-size: 2rem;
-  line-height: 1.6;
 }
-.article-box .desc {
 
+.article-box .desc {
   margin-bottom: 5px;
   color: #333;
   overflow: hidden;
