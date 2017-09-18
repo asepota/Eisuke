@@ -72,16 +72,21 @@ a:link, a:visited, a:hover, a:active {
   top: 0;
   width: 100%;
   height: 300px;
-  background: url('../images/hanabi.jpg') no-repeat;
+  background: url('../images/hanabi02.jpg') no-repeat;
  /*  background: url('../images/akb.jpg') repeat; */
   box-shadow: 0 0 10px 1px #e3e3e3; 
 }
 
 .logo2 {
+  position: absolute;
+  top: 0px;
+  left: 50px;
   width: 800px;
   height: 80px;
-  margin: 110px auto;
-  background: url('../images/title-logo-white.png') no-repeat;
+  margin: 50px auto;
+  font-size: 5rem;
+  color: #ffffff;
+  /*background: url('../images/title-logo-white.png') no-repeat;*/
   /*text-indent: 100%;
 
   /*white-space: nowrap;
