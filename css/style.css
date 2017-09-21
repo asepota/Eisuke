@@ -88,8 +88,8 @@ a:link, a:visited, a:hover, a:active {
 .global-nav {
   display: block;
   width: 100%;
-  border-bottom: ridge 2px #333;
   text-align: center;
+  border-bottom: solid 2px #333;
 }
 
 .global-nav .nav-item {
@@ -445,7 +445,7 @@ a:link, a:visited, a:hover, a:active {
   position: relative;
   width: 100%;
   height: 30px;
-  border-top: 1px solid #333;
+  border-top: solid 1px #333;
   padding: 0px 0 0px;
   /*background: #2d3d54 url('../images/bg-footer.gif');*/
   color: #333;
