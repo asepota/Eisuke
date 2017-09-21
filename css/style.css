@@ -621,6 +621,15 @@ a:link, a:visited, a:hover, a:active {
    color: #777;
 }
 
+.businessImage .center{
+  text-align: center;
+}
+
+.businessImage h1{
+  margin: 3rem auto 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
 
 .businessImage .text {
    display: inline-block;
